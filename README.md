@@ -1,19 +1,23 @@
-# Invest Site Starter (Latest v2)
 
-En enkel, statisk investeringsside (lys & klassisk) med porteføljetabell og grafer.
+# Investeringsportefølje
 
-## Slik bruker du
-1) Last opp hele mappen til et nytt GitHub-repo (f.eks. `invest-site`).
-2) Koble Netlify til GitHub og velg repoet. Byggkommando: *(ingen)*, Publiseringsmappe: `/` (rot).
-   Alternativt: GitHub Pages — Settings → Pages → Source: Deploy from a branch → main → /root.
-3) For å oppdatere tall: rediger `data.json` og commit/push.
+Dette er en statisk nettside som viser min aksjeportefølje, inkludert:
+- Navn, ticker, antall aksjer
+- Kjøpsverdi og markedsverdi
+- Avkastning i prosent
 
-## Lokalt (frivillig)
-- Åpne `index.html` direkte, eller:
-  - Python 3: `python -m http.server 8000` → http://localhost:8000
+## Bruk
 
-## Tilpasning
-- SoMe-lenker i `index.html` → `#contact`.
-- Beholdninger i `data.json`.
-- Utseende i `styles.css`.
-- Graflogikk i `script.js`.
+1. Åpne `index.html` i nettleser
+2. Oppdater `aksjeposisjoner.csv` når porteføljen endres
+3. Last opp på GitHub og aktiver GitHub Pages
+
+## Live demo
+
+🚀 Nettsiden vil være tilgjengelig på:
+`https://<ditt-brukernavn>.github.io/<repo-navn>/`
+(om GitHub Pages er aktivert i repoet)
+
+---
+
+🛠 Laget med ❤️ av ChatGPT + Netlify + GitHub Pages
