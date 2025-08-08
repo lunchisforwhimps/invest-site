@@ -1,0 +1,92 @@
+{
+  "summary": {
+    "total_value": 3280000,
+    "ytd_return_pct": 8.2,
+    "dividends_12m": 92000
+  },
+  "holdings": [
+    {
+      "name": "Novo Nordisk",
+      "sector": "Helse",
+      "value_nok": 320000,
+      "ytd_pct": -12.4,
+      "div_yield_pct": 1.4
+    },
+    {
+      "name": "Nordic Semiconductor",
+      "sector": "Teknologi",
+      "value_nok": 260000,
+      "ytd_pct": -9.8,
+      "div_yield_pct": 0.0
+    },
+    {
+      "name": "Paratus Energy",
+      "sector": "Energi",
+      "value_nok": 210000,
+      "ytd_pct": 14.5,
+      "div_yield_pct": 7.5
+    },
+    {
+      "name": "Kraft Bank",
+      "sector": "Finans",
+      "value_nok": 180000,
+      "ytd_pct": 6.2,
+      "div_yield_pct": 4.3
+    },
+    {
+      "name": "Subsea 7",
+      "sector": "Energi",
+      "value_nok": 120000,
+      "ytd_pct": 2.1,
+      "div_yield_pct": 3.1
+    },
+    {
+      "name": "Jupiter India Select (fond)",
+      "sector": "EM",
+      "value_nok": 170000,
+      "ytd_pct": -4.5,
+      "div_yield_pct": 0.0
+    },
+    {
+      "name": "KLP Fremvoksende Markeder",
+      "sector": "EM",
+      "value_nok": 300000,
+      "ytd_pct": 1.8,
+      "div_yield_pct": 0.0
+    }
+  ],
+  "history": [
+    {
+      "label": "Jan",
+      "value_nok": 3020000
+    },
+    {
+      "label": "Feb",
+      "value_nok": 3045000
+    },
+    {
+      "label": "Mar",
+      "value_nok": 3090000
+    },
+    {
+      "label": "Apr",
+      "value_nok": 3155000
+    },
+    {
+      "label": "Mai",
+      "value_nok": 3170000
+    },
+    {
+      "label": "Jun",
+      "value_nok": 3240000
+    },
+    {
+      "label": "Jul",
+      "value_nok": 3265000
+    },
+    {
+      "label": "Aug",
+      "value_nok": 3280000
+    }
+  ]
+}

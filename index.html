@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portefølje — Andreas</title>
+  <meta name="description" content="Personlig investeringsside med porteføljeoversikt, grafer og bull/bear-tema."/>
+  <link rel="stylesheet" href="styles.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Andreas — Portefølje</h1>
+      <nav>
+        <a href="#overview">Oversikt</a>
+        <a href="#charts">Grafer</a>
+        <a href="#about">Om</a>
+        <a href="#contact">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-inner">
+      <div>
+        <h2>Lyst & klassisk design</h2>
+        <p>Live oversikt over porteføljen, oppdatert med grafer og nøkkeltall. Bull/bear-tema uten støy.</p>
+        <a class="btn" href="#overview">Se porteføljen</a>
+      </div>
+      <img src="assets/bull-bear.svg" alt="Bull og bear" />
+    </div>
+  </section>
+
+  <main class="container">
+    <section id="overview" class="card">
+      <h3>Porteføljeoversikt</h3>
+      <div class="grid">
+        <div class="stat">
+          <div class="stat-label">Total verdi</div>
+          <div class="stat-value" id="totalValue">—</div>
+        </div>
+        <div class="stat">
+          <div class="stat-label">Avkastning (i år)</div>
+          <div class="stat-value" id="ytdReturn">—</div>
+        </div>
+        <div class="stat">
+          <div class="stat-label">Utbytte (12 mnd)</div>
+          <div class="stat-value" id="dividends">—</div>
+        </div>
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Navn</th>
+              <th>Sektor</th>
+              <th>Verdi (NOK)</th>
+              <th>YTD</th>
+              <th>Utbytte%</th>
+            </tr>
+          </thead>
+          <tbody id="holdingsTable"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="charts" class="card">
+      <h3>Grafer</h3>
+      <div class="chart-wrap">
+        <canvas id="allocationChart"></canvas>
+      </div>
+      <div class="chart-wrap">
+        <canvas id="growthChart"></canvas>
+      </div>
+    </section>
+
+    <section id="about" class="card">
+      <h3>Om siden</h3>
+      <p>Denne siden er statisk, rask og enkel å oppdatere. Last opp ny <code>data.json</code> så oppdateres tabell og grafer automatisk.</p>
+    </section>
+
+    <section id="contact" class="card">
+      <h3>Kontakt & SoMe</h3>
+      <ul class="social">
+        <li><a href="https://www.instagram.com/lunchisforwhimps" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://x.com/lunchisfor" target="_blank" rel="noopener">X (Twitter)</a></li>
+        <li><a href="#" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Andreas. Hostet gratis på Netlify eller GitHub Pages.</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
